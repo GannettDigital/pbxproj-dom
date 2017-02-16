@@ -1,8 +1,58 @@
 {
-  "name": "pbxproj-dom",
-  "version": "1.0.8",
-  "description": "",
-  "main": "index.js",
+  "_args": [
+    [
+      {
+        "raw": "pbxproj-dom@^1.0.8",
+        "scope": null,
+        "escapedName": "pbxproj-dom",
+        "name": "pbxproj-dom",
+        "rawSpec": "^1.0.8",
+        "spec": ">=1.0.8 <2.0.0",
+        "type": "range"
+      },
+      "/Users/ryancopley/Projects/iOS/Bonnie-iOS"
+    ]
+  ],
+  "_from": "pbxproj-dom@>=1.0.8 <2.0.0",
+  "_id": "pbxproj-dom@1.0.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/pbxproj-dom",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/pbxproj-dom-1.0.8.tgz_1484570142617_0.236915429122746"
+  },
+  "_npmUser": {
+    "name": "panayot.cankov",
+    "email": "panayot.cankov@telerik.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "pbxproj-dom@^1.0.8",
+    "scope": null,
+    "escapedName": "pbxproj-dom",
+    "name": "pbxproj-dom",
+    "rawSpec": "^1.0.8",
+    "spec": ">=1.0.8 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pbxproj-dom/-/pbxproj-dom-1.0.8.tgz",
+  "_shasum": "3a95e3ada2a004df310070639152656760f9bc03",
+  "_shrinkwrap": null,
+  "_spec": "pbxproj-dom@^1.0.8",
+  "_where": "/Users/ryancopley/Projects/iOS/Bonnie-iOS",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/PanayotCankov/pbxproj-dom/issues"
+  },
+  "dependencies": {},
+  "description": "Parser and DOM over the xcode pbxproj",
   "devDependencies": {
     "@types/chai": "^3.4.34",
     "@types/mocha": "^2.2.33",
@@ -13,19 +63,32 @@
     "pegjs": "^0.10.0",
     "typescript": "^2.1.4"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "3a95e3ada2a004df310070639152656760f9bc03",
+    "tarball": "https://registry.npmjs.org/pbxproj-dom/-/pbxproj-dom-1.0.8.tgz"
+  },
+  "gitHead": "a0f05e3dd0fc2827c1e154d97b162ba6bca0897c",
+  "homepage": "https://github.com/PanayotCankov/pbxproj-dom#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "panayot.cankov",
+      "email": "panayot.cankov@telerik.com"
+    }
+  ],
+  "name": "pbxproj-dom",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanayotCankov/pbxproj-dom.git"
+  },
   "scripts": {
     "prepublish": "pegjs parser.pegjs && tsc",
     "test": "pegjs parser.pegjs && tsc && mocha",
     "watch": "mocha-typescript-watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PanayotCankov/pbxproj-dom.git"
-  },
-  "author": "",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/PanayotCankov/pbxproj-dom/issues"
-  },
-  "homepage": "https://github.com/PanayotCankov/pbxproj-dom#readme"
+  "version": "1.0.8"
 }
